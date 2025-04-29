@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+#bg{
+  background-image: url("https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg");
+}
