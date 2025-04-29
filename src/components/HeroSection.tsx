@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <nav className="container mx-auto px-20 py-6 flex flex-col md:flex-row justify-between items-center">
                     <div className="flex items-center gap-2">
                         <ChefHat className="h-8 w-8" />
-                        <span className="text-2xl font-serif">LATIN GRILL TAMPA</span>
+                        <span className="md:text-2xl font-serif text-xl">LATIN GRILL TAMPA</span>
                     </div>
                     <div className="md:flex md:flex-row md:gap-8 text-sm tracking-wider mt-5 md:mt-0 flex flex-col items-center justify-center gap-y-2 md:gap-y-0">
                         <a
@@ -83,7 +83,7 @@ export default function HeroSection() {
                     <p className="text-xl md:text-2xl mb-8 max-w-2xl text-center">
                         <SplitText
                             text="Indulge in a culinary journey where tradition meets innovation"
-                            className="font-semibold text-center"
+                            className="text-center"
                             delay={600}
                             animationFrom={{
                                 opacity: 0,
