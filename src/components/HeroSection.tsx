@@ -7,7 +7,7 @@ export default function HeroSection() {
     };
     return (
         <div
-            className="h-screen relative bg-cover bg-center"
+            className="h-screen relative bg-cover bg-center w-screen max-w-[100vw]"
             style={{
                 position: "relative",
             }}
@@ -23,12 +23,12 @@ export default function HeroSection() {
             ></div>
 
             <div className="absolute inset-0 bg-black/50">
-                <nav className="container mx-auto px-20 py-6 flex justify-between items-center">
+                <nav className="container mx-auto px-20 py-6 flex flex-col md:flex-row justify-between items-center">
                     <div className="flex items-center gap-2">
                         <ChefHat className="h-8 w-8" />
-                        <span className="text-2xl font-serif">MAISON</span>
+                        <span className="text-2xl font-serif">LATIN GRILL TAMPA</span>
                     </div>
-                    <div className="hidden md:flex gap-8 text-sm tracking-wider">
+                    <div className="md:flex md:flex-row md:gap-8 text-sm tracking-wider mt-5 md:mt-0 flex flex-col items-center justify-center gap-y-2 md:gap-y-0">
                         <a
                             href="#menu"
                             className="relative text-[#C8A97E] font-semibold transition-all duration-500 hover:text-[#ffe4be] group"
@@ -60,7 +60,7 @@ export default function HeroSection() {
                     </div>
                 </nav>
 
-                <div className="container mx-auto px-4 h-[calc(100%-5rem)] flex flex-col justify-center items-center text-center">
+                <div className="container mx-auto px-4 h-[calc(100%-10rem)] flex flex-col justify-center items-center text-center">
                     <h1 className="text-5xl md:text-7xl font-serif mb-6">
                         <SplitText
                             text="Experience Fine Dining"

@@ -2,9 +2,9 @@ import DecryptedText from "./ui/decrypted-text";
 
 export default function AboutSection() {
     return (
-        <section id="about" className="py-24 px-20 bg-[#202020] w-screen ">
-            <div className="container mx-auto px-4">
-                <div className="grid md:grid-cols-2 gap-16 items-center">
+        <section id="about" className="py-24 md:px-20 px-6 bg-[#202020] w-screen ">
+            <div className="container mx-auto md:px-4">
+                <div className="grid md:grid-cols-2 md:gap-16 gap-8 items-center">
                     <div>
                         <h2 className="text-4xl md:text-5xl font-serif mb-8 text-gray-200">
                             <DecryptedText
@@ -44,7 +44,7 @@ export default function AboutSection() {
                             </span>
                         </div>
                     </div>
-                    <div className="parent grid grid-cols-2 grid-rows-2 gap-4">
+                    <div className="grid grid-cols-2 grid-rows-2 md:gap-4 gap-2">
                         <img
                             src="https://images.pexels.com/photos/3338537/pexels-photo-3338537.jpeg"
                             alt="Restaurant interior"

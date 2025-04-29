@@ -6,7 +6,6 @@ import {MenuSection} from './components/MenuSection';
 import Footer from './components/Footer';
 // import Three from './components/Three';
 
-
 function App() {
   return (
     <div className="min-h-screen bg-[#000000] text-white">

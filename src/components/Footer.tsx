@@ -19,7 +19,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <p className="text-sm font-mono">© 2025 MAISON Restaurant. All rights reserved.</p>
+                <p className="text-sm font-mono">© 2025 LATIN GRILL TAMPA Restaurant. <br /> All rights reserved.</p>
             </div>
         </footer>
     );
