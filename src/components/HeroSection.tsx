@@ -26,7 +26,7 @@ export default function HeroSection() {
                 <nav className="container mx-auto md:px-20 px-2 py-6 flex flex-col md:flex-row justify-between items-center">
                     <div className="flex items-center gap-2">
                         <ChefHat className="h-8 w-8" />
-                        <span className="md:text-2xl font-serif text-md">LATIN GRILL TAMPA</span>
+                        <span className="md:text-2xl font-serif text-2xl">LATIN GRILL TAMPA</span>
                     </div>
                     <div className="md:flex md:flex-row md:gap-8 text-sm tracking-wider mt-5 md:mt-0 flex flex-col items-center justify-center gap-y-2 md:gap-y-0">
                         <a
