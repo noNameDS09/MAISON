@@ -60,7 +60,7 @@ export default function HeroSection() {
                     </div>
                 </nav>
 
-                <div className="container mx-auto px-4 h-[calc(100%-10rem)] flex flex-col justify-center items-center text-center">
+                <div className="container mx-auto px-4 h-[calc(100%-15rem)] md:h-[calc(100%-10rem)] flex flex-col justify-center items-center text-center">
                     <h1 className="text-5xl md:text-7xl font-serif mb-6">
                         <SplitText
                             text="Experience Fine Dining"
